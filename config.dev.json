@@ -12,13 +12,15 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "✿✨️𝑰𝒔𝒂𝒃𝒆𝒍𝒍𝒂✨️✿",
+	"prefix": "~",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [
+	  "100084032864300"
+	],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
@@ -40,15 +42,15 @@
 	"timeZone": "Asia/Ho_Chi_Minh",
 	"credentials": {
 		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
+			"email": "Djamaltoko256@gmail.com",
+			"clientId": "593135511078-a5e6ta0f7c3o3jf3p33ttq0uafk19kr2.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04xM755PkYh9DCgYIARAAGAQSNwF-L9IrHzmgbHT0QYM64BZxux-IYO4BPoM77rLHS79P21YRcX_BNU5MpKjHZIw5-XFmT_Ks-LA",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
+			"siteKey": "6LcE5bQpAAAAAFk98RlyBRl3PptIOJMQixCFZHYH",
+			"secretKey": "6LcE5bQpAAAAAIHPfq0eim4aMBeI91xzmVfCGDw_"
 		}
 	},
 	"dashBoard": {
