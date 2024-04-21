@@ -4,11 +4,15 @@ module.exports = {
 	config: {
 		name: "notification",
 		aliases: ["notify", "noti"],
-		version: "1.7",
+		version: "1.6",
 		author: "NTKhang",
 		countDown: 5,
 		role: 2,
-		description: {
+		shortDescription: {
+			vi: "Gửi thông báo từ admin đến all box",
+			en: "Send notification from admin to all box"
+		},
+		longDescription: {
 			vi: "Gửi thông báo từ admin đến all box",
 			en: "Send notification from admin to all box"
 		},
@@ -31,7 +35,7 @@ module.exports = {
 		},
 		en: {
 			missingMessage: "Please enter the message you want to send to all groups",
-			notification: "Notification from admin bot to all chat groups (do not reply to this message)",
+			notification: "❀☆𝒖𝒏 𝒄𝒐𝒖𝒓𝒓𝒊𝒆𝒍 𝒆𝒍𝒆𝒄𝒕𝒓𝒐𝒏𝒊𝒒𝒖𝒆 𝒒 𝒆𝒕𝒆 𝒆𝒏𝒗𝒐𝒚𝒆 𝒅𝒆 𝒍𝒂 𝒑𝒂𝒓𝒕 𝒅𝒆 𝒍'𝒂𝒎𝒊𝒏 𝒅𝒖 𝒃𝒐𝒕❀ ( 𝒑𝒐𝒖𝒓 𝒓𝒆𝒑𝒐𝒏𝒅𝒓𝒆 𝒂 𝒍'𝒂𝒅𝒎𝒊𝒏 🧧 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒍𝒂 𝒄𝒎𝒅 ~𝒄𝒂𝒍𝒍𝒂𝒅 )",
 			sendingNotification: "Start sending notification from admin bot to %1 chat groups",
 			sentNotification: "✅ Sent notification to %1 groups successfully",
 			errorSendingNotification: "An error occurred while sending to %1 groups:\n%2"
