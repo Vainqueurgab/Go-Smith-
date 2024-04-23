@@ -4,11 +4,15 @@ const { writeFileSync } = require("fs-extra");
 module.exports = {
 	config: {
 		name: "admin",
-		version: "1.6",
-		author: "NTKhang",
+		version: "1.5",
+		author: "NTKhang",// edited by Djamal Tk
 		countDown: 5,
 		role: 2,
-		description: {
+		shortDescription: {
+			vi: "Thêm, xóa, sửa quyền admin",
+			en: "Add, remove, edit admin role"
+		},
+		longDescription: {
 			vi: "Thêm, xóa, sửa quyền admin",
 			en: "Add, remove, edit admin role"
 		},
@@ -34,13 +38,13 @@ module.exports = {
 			listAdmin: "👑 | Danh sách admin:\n%1"
 		},
 		en: {
-			added: "✅ | Added admin role for %1 users:\n%2",
-			alreadyAdmin: "\n⚠️ | %1 users already have admin role:\n%2",
-			missingIdAdd: "⚠️ | Please enter ID or tag user to add admin role",
-			removed: "✅ | Removed admin role of %1 users:\n%2",
-			notAdmin: "⚠️ | %1 users don't have admin role:\n%2",
-			missingIdRemove: "⚠️ | Please enter ID or tag user to remove admin role",
-			listAdmin: "👑 | List of admins:\n%1"
+			added: "✅ | 𝐀𝐝𝐝𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞 𝐅𝐨𝐫 %1 𝐔𝐬𝐞𝐫𝐬:\n%2",
+			alreadyAdmin: "\n⚠️ | %1 𝐔𝐬𝐞𝐫𝐬 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐇𝐚𝐯𝐞 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞:\n%2",
+			missingIdAdd: "⚠️ | 𝐏𝐥𝐞𝐚𝐬𝐞 𝐄𝐧𝐭𝐞𝐫 𝐈𝐝 𝐎𝐫 𝐓𝐚𝐠 𝐔𝐬𝐞𝐫 𝐓𝐨 𝐀𝐝𝐝 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞",
+			removed: "✅ | 𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞 𝐎𝐟 %1 𝐔𝐬𝐞𝐫𝐬:\n%2",
+			notAdmin: "⚠️ | %1 𝐔𝐬𝐞𝐫𝐬 𝐃𝐨𝐧'𝐭 𝐇𝐚𝐯𝐞 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞:\n%2",
+			missingIdRemove: "⚠️ | 𝐏𝐥𝐞𝐚𝐬𝐞 𝐄𝐧𝐭𝐞𝐫 𝐈𝐝 𝐎𝐫 𝐓𝐚𝐠 𝐔𝐬𝐞𝐫 𝐓𝐨 𝐑𝐞𝐦𝐨𝐯𝐞 𝐀𝐝𝐦𝐢𝐧 𝐑𝐨𝐥𝐞",
+			listAdmin: "👑 ✨️| 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐀𝐝𝐦𝐢𝐧𝐬:\n%1"
 		}
 	},
 
@@ -107,7 +111,7 @@ module.exports = {
 			case "list":
 			case "-l": {
 				const getNames = await Promise.all(config.adminBot.map(uid => usersData.getName(uid).then(name => ({ uid, name }))));
-				return message.reply(getLang("listAdmin", getNames.map(({ uid, name }) => `• ${name} (${uid})`).join("\n")));
+				return message.reply(getLang("listAdmin", getNames.map(({ uid, name }) => `【${name}】 ⦿${uid}`).join("\n")));
 			}
 			default:
 				return message.SyntaxError();
