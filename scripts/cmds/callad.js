@@ -4,11 +4,15 @@ const mediaTypes = ["photo", 'png', "animated_image", "video", "audio"];
 module.exports = {
 	config: {
 		name: "callad",
-		version: "1.7",
-		author: "NTKhang",
+		version: "1.6",
+		author: "NTKhang", //edited by Djamal tk
 		countDown: 5,
 		role: 0,
-		description: {
+		shortDescription: {
+			vi: "gửi tin nhắn về admin bot",
+			en: "send message to admin bot"
+		},
+		longDescription: {
 			vi: "gửi báo cáo, góp ý, báo lỗi,... của bạn về admin bot",
 			en: "send report, feedback, bug,... to admin bot"
 		},
@@ -34,17 +38,14 @@ module.exports = {
 			noAdmin: "Hiện tại bot chưa có admin nào"
 		},
 		en: {
-			missingMessage: "Please enter the message you want to send to admin",
-			sendByGroup: "\n- Sent from group: %1\n- Thread ID: %2",
-			sendByUser: "\n- Sent from user",
-			content: "\n\nContent:\n─────────────────\n%1\n─────────────────\nReply this message to send message to user",
-			success: "Sent your message to %1 admin successfully!\n%2",
-			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
-			reply: "📍 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
-			replySuccess: "Sent your reply to admin successfully!",
-			feedback: "📝 Feedback from user %1:\n- User ID: %2%3\n\nContent:\n─────────────────\n%4\n─────────────────\nReply this message to send message to user",
-			replyUserSuccess: "Sent your reply to user successfully!",
-			noAdmin: "Bot has no admin at the moment"
+			missingMessage: "🥲𝐏𝐥𝐞𝐚𝐬𝐞 𝐞𝐧𝐭𝐞𝐫 𝐭𝐡𝐞 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐬𝐞𝐧𝐝 𝐭𝐨 𝐚𝐝𝐦𝐢𝐧↗️",    𝐬𝐞𝐧𝐝𝐁𝐲𝐆𝐫𝐨𝐮𝐩: "\n- 𝐒𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩: %1\n- 𝐓𝐡𝐫𝐞𝐚𝐝 𝐈𝐃: %2",    𝐬𝐞𝐧𝐝𝐁𝐲𝐔𝐬𝐞𝐫: "\n- 𝐒𝐞𝐧𝐭 𝐟𝐫𝐨𝐦 𝐮𝐬𝐞𝐫",    𝐜𝐨𝐧𝐭𝐞𝐧𝐭: "\n\n𝐂𝐨𝐧𝐭𝐞𝐧𝐭:\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️\n%1\n\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️↩️𝐑𝐞𝐩𝐥𝐲 𝐭𝐡𝐢𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐬𝐞𝐧𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐮𝐬𝐞𝐫👤",
+			success: "✅| 𝐒𝐞𝐧𝐭 𝐲𝐨𝐮𝐫 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 %1 𝐚𝐝𝐦𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!\n%2\n\n🥲🛀🏾🚶🏾‍♂️🏃🏾‍♂️🫠",
+			failed: "❎| 𝐀𝐧 𝐞𝐫𝐫𝐨𝐫 𝐨𝐜𝐜𝐮𝐫𝐫𝐞𝐝 𝐰𝐡𝐢𝐥𝐞 𝐬𝐞𝐧𝐝𝐢𝐧𝐠 𝐲𝐨𝐮𝐫 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 %1 𝐚𝐝𝐦𝐢𝐧\n%2\n𝐂𝐡𝐞𝐜𝐤 𝐜𝐨𝐧𝐬𝐨𝐥𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬🥲",
+			reply: " ♻️𝐑𝐞𝐩𝐥𝐲 𝐟𝐫𝐨𝐦 𝐚𝐝𝐦𝐢𝐧 %1:\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️\n%2\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️\n↩️𝐑𝐞𝐩𝐥𝐲 𝐭𝐡𝐢𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞 𝐬𝐞𝐧𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐝𝐦𝐢𝐧🫠",
+			replySuccess: "✅| 𝐒𝐞𝐧𝐭 𝐲𝐨𝐮𝐫 𝐫𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚𝐝𝐦𝐢𝐧 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!↩️",
+			feedback: "📝 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤 𝐟𝐫𝐨𝐦 𝐮𝐬𝐞𝐫 %1:\n- 𝐔𝐬𝐞𝐫 𝐈𝐃: %2%3\n\n𝐂𝐨𝐧𝐭𝐞𝐧𝐭:\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️\n%4\n▫️▫️▫️▫️▫️▫️▫️▫️▫️▫️\n↪️𝐑𝐞𝐩𝐥𝐲 𝐭𝐡𝐢𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐬𝐞𝐧𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐮𝐬𝐞𝐫👤",
+			replyUserSuccess: "✅| 𝐒𝐞𝐧𝐭 𝐲𝐨𝐮𝐫 𝐫𝐞𝐩𝐥𝐲 𝐭𝐨 𝐮𝐬𝐞𝐫 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲!↗️",
+			noAdmin: "𝐁𝐨𝐭 𝐡𝐚𝐬 𝐧𝐨 𝐚𝐝𝐦𝐢𝐧 𝐚𝐭 𝐭𝐡𝐞 𝐦𝐨𝐦𝐞𝐧𝐭😮‍💨"
 		}
 	},
 
@@ -56,9 +57,9 @@ module.exports = {
 		if (config.adminBot.length == 0)
 			return message.reply(getLang("noAdmin"));
 		const senderName = await usersData.getName(senderID);
-		const msg = "==📨️ CALL ADMIN 📨️=="
-			+ `\n- User Name: ${senderName}`
-			+ `\n- User ID: ${senderID}`
+		const msg = "==📨🥹𝐂𝐀𝐋𝐋 𝐀𝐃𝐌𝐈𝐍🥹📨=="
+			+ `\n- 𝐔𝐬𝐞𝐫 𝐍𝐚𝐦𝐞👤: ${senderName}`
+			+ `\n- 𝐔𝐬𝐞𝐫 𝐈𝐃: ${senderID}`
 			+ (isGroup ? getLang("sendByGroup", (await threadsData.get(threadID)).threadName, threadID) : getLang("sendByUser"));
 
 		const formMessage = {
