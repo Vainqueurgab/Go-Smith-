@@ -27,7 +27,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("𝐒𝐚𝐥𝐮𝐭✨ @${message.senderID}  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 🌹𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧🌹");
+        await message.reply("𝐒𝐚𝐥𝐮𝐭✨  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 🌹𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧🌹");
         return;
       }
 
