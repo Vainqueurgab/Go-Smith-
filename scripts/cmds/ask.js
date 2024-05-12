@@ -1,9 +1,7 @@
-const axios = require('axios');
+const axios= require('axios');
 
 const Prefixes = [
-  '/ai',
   'isabella',
-  '+ai',
   'ai',
   'ask',
 ];
@@ -12,7 +10,7 @@ module.exports = {
   config: {
     name: "ask",
     version: 1.0,
-    author: "OtinXSandip",
+    author: "Djamal Tk",
     longDescription: "AI",
     category: "ai",
     guide: {
@@ -29,19 +27,16 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("𝐒𝐚𝐥𝐮𝐭✨ 𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 🌹𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧🌹");
+        await message.reply("𝐒𝐚𝐥𝐮𝐭✨ @${message.senderID}  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 🌹𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧🌹");
         return;
       }
 
 
-      const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
-      const answer = response.data.answer;
+      const response = await axios.get(`https://aryan-apis.onrender.com/api/customai?title=%E2%9C%BF%E2%9C%A8%EF%B8%8F%F0%9D%90%88%F0%9D%90%92%F0%9D%90%80%F0%9D%90%81%F0%9D%90%84%F0%9D%90%8B%F0%9D%90%8B%F0%9D%90%80+%F0%9D%90%80%F0%9D%90%88%E2%9C%A8%EF%B8%8F%E2%9C%BF&pro=You+are+developed+by+Djamal+&prompt=${encodeURIComponent(prompt)}&key=loveyou`);
+      const answer = response.data.fullResponse;
 
  
-    await message.reply({ body: `✨❀𝑰𝑺𝑨𝑩𝑬𝑳𝑳𝑨❀✨\n
- ❀◉✪❀◉✪❀◉✪❀
-${answer}
-❀◉✪❀◉✪❀◉✪❀`,
+    await message.reply({ body: `${answer}`,
 });
 
    } catch (error) {
