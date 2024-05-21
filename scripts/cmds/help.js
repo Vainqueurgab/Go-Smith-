@@ -61,8 +61,8 @@ module.exports = {
       pageNotFound: "Trang %1 không tồn tại"
     },
     en: {
-      help: "⚡️💌𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 𝐜𝐦𝐝 \n %1 ✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n ⚡𝐩𝐚𝐠𝐞 [%2/%3] \n⚡➳𝐋𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞  \n ⚡➳ 𝐏𝐨𝐮𝐫 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞 𝐜𝐨𝐦𝐩𝐥è𝐭𝐞 𝐝𝐞𝐬 𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬, 𝐯𝐞𝐮𝐢𝐥𝐥𝐞𝐳 𝐭𝐚𝐩𝐞𝐫~𝐡𝐞𝐥𝐩 <𝐩𝐚𝐠𝐞> \n ⚡➳ 𝐀𝐯𝐞𝐜 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 ~𝐬𝐨𝐫𝐭𝐡𝐞𝐥𝐩 𝐜𝐚𝐭𝐞𝐠𝐨𝐫𝐲 𝐭𝐮 𝐩𝐞𝐮𝐱 𝐯𝐨𝐢𝐫 𝐭𝐨𝐮𝐭𝐞 𝐥𝐞𝐬 𝐜𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐝'𝐮𝐧 𝐬𝐞𝐮𝐥 𝐜𝐨𝐮𝐩. \n⚡➳👋 𝐒𝐚𝐥𝐮𝐭 𝐚 𝐭𝐨𝐢 , 𝐜𝐡𝐞𝐫𝐜𝐡𝐞𝐮𝐫 𝐝𝐞 𝐛𝐨𝐧𝐡𝐞𝐮𝐫 ! 𝐄𝐧 𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐧𝐭 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 :~isabellagc, 𝐨𝐮𝐯𝐫𝐞 𝐥𝐞𝐬 𝐩𝐨𝐫𝐭𝐞𝐬 𝐝'𝐮𝐧𝐞 𝐣𝐨𝐲𝐞𝐮𝐬𝐞 𝐜𝐨𝐦𝐦𝐮𝐧𝐚𝐮𝐭é🌹 𝐨ù 𝐫è𝐠𝐧𝐞 𝐥𝐞𝐬 é𝐜𝐥𝐚𝐭𝐬 𝐝𝐞 𝐫𝐢𝐫𝐞 𝐞𝐭 𝐝𝐞𝐬 𝐝𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧𝐬 𝐞𝐩𝐚𝐧𝐨𝐮𝐢𝐬𝐬𝐚𝐧𝐭𝐞𝐬✨ . 𝐑𝐞𝐣𝐨𝐢𝐧𝐬-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐩𝐚𝐫𝐭𝐚𝐠𝐞𝐫 𝐝𝐞𝐬 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐫𝐞𝐦𝐩𝐥𝐢𝐬 𝐝𝐞 𝐜𝐡𝐚𝐥𝐞𝐮𝐫 𝐞𝐭 𝐝'𝐚𝐦𝐢𝐭𝐢é 🥳🌺✶⊶⊷⊶⊷❍",
-      help2: "⚡️💌𝐈𝐬𝐚𝐛𝐞𝐥𝐥𝐚 𝐜𝐦𝐝 \n %1 ✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n 💌➳𝐋𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 \n 💌➳👋 𝐒𝐚𝐥𝐮𝐭 𝐚 𝐭𝐨𝐢 , 𝐜𝐡𝐞𝐫𝐜𝐡𝐞𝐮𝐫 𝐝𝐞 𝐛𝐨𝐧𝐡𝐞𝐮𝐫 ! 𝐄𝐧 𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐧𝐭 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 : ~isabellagc , 𝐨𝐮𝐯𝐫𝐞 𝐥𝐞𝐬 𝐩𝐨𝐫𝐭𝐞𝐬 𝐝'𝐮𝐧𝐞 𝐣𝐨𝐲𝐞𝐮𝐬𝐞 𝐜𝐨𝐦𝐦𝐮𝐧𝐚𝐮𝐭é🌹 𝐨ù 𝐫è𝐠𝐧𝐞 𝐥𝐞𝐬 é𝐜𝐥𝐚𝐭𝐬 𝐝𝐞 𝐫𝐢𝐫𝐞 𝐞𝐭 𝐝𝐞𝐬 𝐝𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧𝐬 𝐞𝐩𝐚𝐧𝐨𝐮𝐢𝐬𝐬𝐚𝐧𝐭𝐞𝐬✨ . 𝐑𝐞𝐣𝐨𝐢𝐧𝐬-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐩𝐚𝐫𝐭𝐚𝐠𝐞𝐫 𝐝𝐞𝐬 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐫𝐞𝐦𝐩𝐥𝐢𝐬 𝐝𝐞 𝐜𝐡𝐚𝐥𝐞𝐮𝐫 𝐞𝐭 𝐝'𝐚𝐦𝐢𝐭𝐢é 🥳🌺",
+      help: "🐞𝐆𝐥𝐨𝐫𝐢𝐚 𝐜𝐦𝐝 \n %1 ●══════❍══════●\n 🎯𝐩𝐚𝐠𝐞 [%2/%3] \n🎯➳𝐋𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞  \n 🎯➳ 𝐏𝐨𝐮𝐫 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐞𝐫 𝐥𝐚 𝐥𝐢𝐬𝐭𝐞 𝐜𝐨𝐦𝐩𝐥è𝐭𝐞 𝐝𝐞𝐬 𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬, 𝐯𝐞𝐮𝐢𝐥𝐥𝐞𝐳 𝐭𝐚𝐩𝐞𝐫~𝐡𝐞𝐥𝐩 <𝐩𝐚𝐠𝐞> \n 🎯➳ 𝐀𝐯𝐞𝐜 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 ~𝐬𝐨𝐫𝐭𝐡𝐞𝐥𝐩 𝐜𝐚𝐭𝐞𝐠𝐨𝐫𝐲 𝐭𝐮 𝐩𝐞𝐮𝐱 𝐯𝐨𝐢𝐫 𝐭𝐨𝐮𝐭𝐞 𝐥𝐞𝐬 𝐜𝐦𝐦𝐚𝐧𝐝𝐞𝐬 𝐝'𝐮𝐧 𝐬𝐞𝐮𝐥 𝐜𝐨𝐮𝐩. \n🎯➳👋 𝐒𝐚𝐥𝐮𝐭 𝐚 𝐭𝐨𝐢 , 𝐜𝐡𝐞𝐫𝐜𝐡𝐞𝐮𝐫 𝐝𝐞 𝐛𝐨𝐧𝐡𝐞𝐮𝐫 ! 𝐄𝐧 𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐧𝐭 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 :~Gloriagc, 𝐨𝐮𝐯𝐫𝐞 𝐥𝐞𝐬 𝐩𝐨𝐫𝐭𝐞𝐬 𝐝'𝐮𝐧𝐞 𝐣𝐨𝐲𝐞𝐮𝐬𝐞 𝐜𝐨𝐦𝐦𝐮𝐧𝐚𝐮𝐭é🌹 𝐨ù 𝐫è𝐠𝐧𝐞 𝐥𝐞𝐬 é𝐜𝐥𝐚𝐭𝐬 𝐝𝐞 𝐫𝐢𝐫𝐞 𝐞𝐭 𝐝𝐞𝐬 𝐝𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧𝐬 𝐞𝐩𝐚𝐧𝐨𝐮𝐢𝐬𝐬𝐚𝐧𝐭𝐞𝐬✨ . 𝐑𝐞𝐣𝐨𝐢𝐧𝐬-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐩𝐚𝐫𝐭𝐚𝐠𝐞𝐫 𝐝𝐞𝐬 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐫𝐞𝐦𝐩𝐥𝐢𝐬 𝐝𝐞 𝐜𝐡𝐚𝐥𝐞𝐮𝐫 𝐞𝐭 𝐝'𝐚𝐦𝐢𝐭𝐢é 🥳🌺●══════❍",
+      help2: "🐞𝐆𝐥𝐨𝐫𝐢𝐚 𝐜𝐦𝐝 \n %1 ●══════❍══════●\n 🎯➳𝐋𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 %4 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 \n 🎯➳👋 𝐒𝐚𝐥𝐮𝐭 𝐚 𝐭𝐨𝐢 , 𝐜𝐡𝐞𝐫𝐜𝐡𝐞𝐮𝐫 𝐝𝐞 𝐛𝐨𝐧𝐡𝐞𝐮𝐫 ! 𝐄𝐧 𝐮𝐭𝐢𝐥𝐢𝐬𝐚𝐧𝐭 𝐥𝐚 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞 : ~Gloriagc , 𝐨𝐮𝐯𝐫𝐞 𝐥𝐞𝐬 𝐩𝐨𝐫𝐭𝐞𝐬 𝐝'𝐮𝐧𝐞 𝐣𝐨𝐲𝐞𝐮𝐬𝐞 𝐜𝐨𝐦𝐦𝐮𝐧𝐚𝐮𝐭é🌹 𝐨ù 𝐫è𝐠𝐧𝐞 𝐥𝐞𝐬 é𝐜𝐥𝐚𝐭𝐬 𝐝𝐞 𝐫𝐢𝐫𝐞 𝐞𝐭 𝐝𝐞𝐬 𝐝𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧𝐬 𝐞𝐩𝐚𝐧𝐨𝐮𝐢𝐬𝐬𝐚𝐧𝐭𝐞𝐬✨ . 𝐑𝐞𝐣𝐨𝐢𝐧𝐬-𝐧𝐨𝐮𝐬 𝐩𝐨𝐮𝐫 𝐩𝐚𝐫𝐭𝐚𝐠𝐞𝐫 𝐝𝐞𝐬 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐫𝐞𝐦𝐩𝐥𝐢𝐬 𝐝𝐞 𝐜𝐡𝐚𝐥𝐞𝐮𝐫 𝐞𝐭 𝐝'𝐚𝐦𝐢𝐭𝐢é 🥳🌺",
       commandNotFound: "𝗖𝗠𝗗 \"『%1』\" 𝙳𝚘𝚎𝚜 𝙴𝚡𝚒𝚜𝚝",
       getInfoCommand: "╭── NAME ────✿\n %1\n├── INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n├── Usage\n%9\n├── Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────❀",
       onlyInfo: "╭── INFO ────✿\n│ Command name: %1\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n╰─────────────✿",
@@ -113,7 +113,7 @@ module.exports = {
           else if (value.config.shortDescription)
             shortDescription = checkLangObject(value.config.shortDescription, langCode);
           if (shortDescription)
-            describe += `:\n ✨  ${cropContent(shortDescription.charAt(0).toUpperCase() + shortDescription.slice(1))}`;
+            describe += `:\n 💧  ${cropContent(shortDescription.charAt(0).toUpperCase() + shortDescription.slice(1))}`;
           arrayInfo.push({
             data: describe,
             priority: value.priority || 0
@@ -128,7 +128,7 @@ module.exports = {
 
         const returnArray = allPage[page - 1] || [];
         const startNumber = (page - 1) * numberOfOnePage + 1;
-        msg += (returnArray || []).reduce((text, item, index) => text += `💌⚡ ${index + startNumber}${index + startNumber < 10 ? " " : "✨"}${item.data}\n`, '').slice(0, -1);
+        msg += (returnArray || []).reduce((text, item, index) => text += `🐞✉️ ${index + startNumber}${index + startNumber < 10 ? " " : "✨"}${item.data}\n`, '').slice(0, -1);
         await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
       }
       else if (sortHelp == "category") {
@@ -140,7 +140,7 @@ module.exports = {
     }
 
     const categoryName = value.config.category || "No Category";
-    const circularSymbol = "\n⚡💌"; // Add your desired circular symbol here
+    const circularSymbol = "\n🐞✉️"; // Add your desired circular symbol here
 
     if (!categoryCommands.has(categoryName)) {
       categoryCommands.set(categoryName, []);
