@@ -14,9 +14,9 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100084032864300"];
+    const permission = ["100076436713281"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("𝑩𝒓𝒐 𝒔𝒆𝒖𝒍 ✿𝑫𝑱𝑨𝑴𝑨𝑳 𝑻𝑲✿ 𝒑𝒆𝒖𝒕 𝒍𝒆 𝒇𝒂𝒊𝒓𝒆 𝒐𝒌?", event.threadID, event.messageID);
+      return api.sendMessage("𝑩𝒓𝒐 𝒔𝒆𝒖𝒍 🜋 𝐀𝐑𝐒𝐄𝐍𝐄 🜋 𝒑𝒆𝒖𝒕 𝒍𝒆 𝒇𝒂𝒊𝒓𝒆 𝒐𝒌?", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
