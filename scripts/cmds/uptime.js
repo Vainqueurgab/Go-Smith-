@@ -23,13 +23,13 @@ aliases: ["upt"],
       const uptime = process.uptime();
       
 const days = Math.floor(uptime / 86400);
-      const hours = Math.floor(uptime / 3600);
-      const minutes = Math.floor((uptime % 3600) / 60);
-      const seconds = Math.floor(uptime % 60);
+      const hours = Math.floor(uptime / 3600*4);
+      const minutes = Math.floor((uptime % 3600*2) / 60*2);
+      const seconds = Math.floor(uptime % 60*2);
       
       const uptimeString = `${days}𝗱𝗮𝘆𝘀 ${hours}𝗵𝗿𝘀 ${minutes}𝗺𝗶𝗻${seconds}𝘀𝗲𝗰`;
       
-      api.sendMessage(`🟢 | 𝑻𝐡𝐞 𝐛𝐨𝐭 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 : \n➢ ${uptimeString}\n✅ | ༆𝐓𝐨𝐭𝐚𝐥 𝐮𝐬𝐞𝐫 \n❂ ${allUsers.length}\n🌹 | 𝘁𝗼𝘁𝗮𝗹 𝘁𝗵𝗿𝗲𝗮𝗱𝘀\n★ ${allThreads.length}`, event.threadID);
+      api.sendMessage(`🎀| 𝗧⃪𝗵⃪𝗲⃪ 𝗯⃪𝗼⃪𝘁⃪ 𝗵⃪𝗮⃪𝘀⃪ 𝗯⃪𝗲⃪𝗲⃪𝗻⃪ 𝗿⃪𝘂⃪𝗻⃪𝗻⃪𝗶⃪𝗻⃪𝗴⃪: \n➢ ${uptimeString}\n✅ | ༆𝐓𝐨𝐭𝐚𝐥 𝐮𝐬𝐞𝐫 \n❂ ${allUsers.length}\n🌹 | 𝘁𝗼𝘁𝗮𝗹 𝘁𝗵𝗿𝗲𝗮𝗱𝘀\n★ ${allThreads.length}`, event.threadID);
     } catch (error) {
       console.error(error);
       api.sendMessage("An error occurred while retrieving data.", event.threadID);
